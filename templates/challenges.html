@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jafar Salami">
+    <link rel="shortcut icon" type="image/png" href="https://www.starfighters.io/img/favicons/favicon-16x16.png"/>
+    <title>Starfighter</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><i class="fa fa-space-shuttle" aria-hidden="true"></i>  Starfighter</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="/approach">OUR APPROACH</a></li>     
+                <li class="active"><a href="/challenges">CHALLENGES</a></li>
+                <li><a href="/aboutus">ABOUT US</a></li>        
+                <li><a href="https://www.stockfighter.io/">PLAY NOW</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    <div class="info-challenge">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="challenge-title">Starfighter’s first public challenge: <a href="https://www.stockfighter.io/">StockFighter.</a></h2>
+            <p class="participant">Participants are given:</p>
+            <div class="participant-list">
+              <ul>
+                <li>An interactive trading blotter interface</li>
+                <li>A real, functioning set of limit-order-book venues</li>
+                <li>A carefully documented JSON HTTP API, with an API explorer</li>
+                <li>A series of programming missions.</li>
+              </ul>
+            </div>
+            <p class="participant">Participants are given:</p>
+            <div class="participant-list">
+              <ul>
+                <li>Implement programmatic trading against a real exchange in a thickly traded market.</li>
+                <li>Execute block-shopping trading strategies.</li>
+                <li>Implement electronic market makers.</li>
+                <li>Pull off an elaborate HFT trading heist.</li>
+              </ul>
+            </div>
+            <p style="color:#ff0000;font-weight:bold;font-size:17px;">Previous trading knowledge required: zero</p>
+          </div>
+          <div class="col-md-3">
+            <div class="chat">
+              <p>Willie Sutton:<br>"I rob banks because that's where the money is."</p>
+              <p style="text-align:left;padding-top:25px">You:</p><p style="text-align:left;"><em>"Amateur."</em></p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="black-info">
+      <div class="container">
+        <div class="col-md-4">
+          <h3>About Starfighter</h3>
+          <hr>
+                    <p style="font-size:16px;">Starfighter is not here to fix the job
+                    interview. We're here to <b>destroy</b> it, and
+                    replace it with something better. We're going to
+                    build a community of makers who have fun doing
+                    what they love, and show the tech industry how
+                    easy it is to hire talented people if you're
+                    committed to doing that.</p>
+                    <p style="font-size:16px;">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <br />
+                        <a href="terms.html">Terms and Conditions</a>
+                    </p>
+        </div>
+        <div class="col-md-4">
+          <h3 >Get Updates</h3>
+          <hr>
+                    <p style="font-size:16px;">We can send you about one email a week with news about Starfighter's upcoming CTFs and thoughts on what we're going through building them, all written by Patrick, Thomas, and Erin.</p>
+                    <form method="post" action="https://www.getdrip.com/forms/3662545/submissions" name="bottom-subscribe" data-drip-embedded-form="3662545" id="bottom-subscribe">
+                        <input type="email" name="fields[email]" class="form-control" id="email" placeholder="Enter E-mail" width="2px">
+                        <br>
+                        <button type="submit" name="submit" value="Get The Emails" class="btn btn-default">Submit</button>
+                    </form>
+        </div>
+        <div class="col--md-4">
+          <h3>Get in Touch</h3>
+          <hr>
+              <a href="https://twitter.com/cusu?lang=en-gb"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.facebook.com/CoventrySU/"><i class="fa fa-facebook-official fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UCW4PH3Cy_cfBgzb9MR0lgRQ"><i class="fa fa-youtube fa-2x"></i></a>
+        </div>
+        </div>
+    </div>
+ 
+          <footer class="footer">
+              <div class="container">
+            <div class="col-md-12" style="background-color: black;">
+              <h5 style="color:white">Created By Jafar Salami</h5>
+            </div>
+      </div>    
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

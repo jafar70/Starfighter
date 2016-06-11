@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jafar Salami">
+    <link rel="shortcut icon" type="image/png" href="https://www.starfighters.io/img/favicons/favicon-16x16.png"/>
+    <title>Starfighter</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><i class="fa fa-space-shuttle" aria-hidden="true"></i>  Starfighter</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="/approach">OUR APPROACH</a></li>     
+                <li><a href="/challenges">CHALLENGES</a></li>
+                <li class="active"><a href="/aboutus">ABOUT US</a></li>        
+                <li><a href="https://www.stockfighter.io/">PLAY NOW</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aboutus-info">
+            <h1>We're good at hiring.</h1>
+            <p>We'll make you good at hiring, too. <br />You can reach all the Starfighter founders at<br /><a href="mailto:founders@starfighters.io">founders@starfighters.io</a><br />We'd love to talk to you, <br />whether you're an engineer or a hiring manager.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="twitter">
+      <div class="container">
+        <div class="col-md-4">
+          <h3>Erin Ptacek <a href="https://twitter.com/bobotjones/"><i class="fa fa-twitter"></i></a></h3>
+          <p>E-mail: <a href="mailto: erin@starfighters.io"> erin@starfighters.io</a><br/>
+           Prior life: Erin spent the last decade breaking into banks. She also helped turn green recruits with no security experience into a legendary team of pentesters.
+          </p>
+          <a class="twitter-timeline" data-width="380" data-height="600" data-theme="light" href="https://twitter.com/boboTjones">Tweets by boboTjones</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col-md-4">
+          <h3>Thomas Ptacek <a href="https://twitter.com/tqbf/"><i class="fa fa-twitter"></i></a></h3>
+          <p>E-mail: <a href="mailto:tqbf@starfighters.io">tqbf@starfighters.io</a><br/>
+           Prior life:Prior life: Thomas has been building tech companies since 1996. He is the George Soros of message board karma points.
+          </p>
+          <a class="twitter-timeline" data-width="380" data-height="600" data-theme="light" href="https://twitter.com/tqbf">Tweets by tqbf</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col-md-4">
+          <h3>Patrick McKenzie <a href="https://twitter.com/patio11/"><i class="fa fa-twitter"></i></a></h3>
+          <p>E-mail: <a href="mailto:patrick@starfighters.io">patrick@starfighters.io</a><br/>
+           Prior life: Patrick is our CEO. Prior life: Patrick is a recovering Japanese salaryman. He solo-shipped two SaaS products which, next to the Ptaceks, makes him Starfighter's non-technical co-founder. 
+          </p>
+          <a class="twitter-timeline" data-width="380" data-height="600" data-theme="light" href="https://twitter.com/patio11">Tweets by patio11</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aboutus-info">
+            <h2>Talk to us! We're friendly!</h2>
+            <hr>
+            <p>We're <b>especially</b> interested in talking to you if you will be hiring 10+ engineers in the next year, as we may be able to help you out with that.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="black-info">
+      <div class="container">
+        <div class="col-md-4">
+          <h3>About Starfighter</h3>
+          <hr>
+                    <p style="font-size:16px;">Starfighter is not here to fix the job
+                    interview. We're here to <b>destroy</b> it, and
+                    replace it with something better. We're going to
+                    build a community of makers who have fun doing
+                    what they love, and show the tech industry how
+                    easy it is to hire talented people if you're
+                    committed to doing that.</p>
+                    <p style="font-size:16px;">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <br />
+                        <a href="terms.html">Terms and Conditions</a>
+                    </p>
+        </div>
+        <div class="col-md-4">
+          <h3 >Get Updates</h3>
+          <hr>
+                    <p style="font-size:16px;">We can send you about one email a week with news about Starfighter's upcoming CTFs and thoughts on what we're going through building them, all written by Patrick, Thomas, and Erin.</p>
+                    <form method="post" action="https://www.getdrip.com/forms/3662545/submissions" name="bottom-subscribe" data-drip-embedded-form="3662545" id="bottom-subscribe">
+                        <input type="email" name="fields[email]" class="form-control" id="email" placeholder="Enter E-mail" width="2px">
+                        <br>
+                        <button type="submit" name="submit" value="Get The Emails" class="btn btn-default">Submit</button>
+                    </form>
+        </div>
+        <div class="col--md-4">
+          <h3>Get in Touch</h3>
+          <hr>
+              <a href="https://twitter.com/cusu?lang=en-gb"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.facebook.com/CoventrySU/"><i class="fa fa-facebook-official fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UCW4PH3Cy_cfBgzb9MR0lgRQ"><i class="fa fa-youtube fa-2x"></i></a>
+        </div>
+        </div>
+    </div>
+ 
+          <footer class="footer">
+              <div class="container">
+            <div class="col-md-12" style="background-color: black;">
+              <h5 style="color:white">Created By Jafar Salami</h5>
+            </div>
+      </div>    
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  </body>
+</html>

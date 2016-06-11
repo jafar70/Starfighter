@@ -1,0 +1,145 @@
+body {
+	background-color: white;
+	padding-top: 50px;
+}
+
+.navbar-default{
+	background-image:url("http://i.stack.imgur.com/Mv83H.png");
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover,
+.navber-default .navbar-brand:focus{
+	color: #ff0000;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-image: url("http://i.stack.imgur.com/Mv83H.png")
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+	color: #ff0000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+	color: #ff0000; 
+}
+
+.navbar-default .navbar-nav > .open >a,
+.navbar-default .navbar-nav > .open >a:hover,
+.navbar-default .navbar-nav > .open >a:focus{
+	color:#ff0000;
+}
+
+.navbar-nav > li >.dropdown-menu{
+	background-image: url("http://i.stack.imgur.com/Mv83H.png");
+}
+
+.navbar-nav > li >.dropdown-menu > .dropdown-header{
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-nav > li > .dropdown-menu > li > a{
+	color:white;
+}
+
+.navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-nav > li > .dropdown-menu > li > a:focus{
+	background-image: url("http://i.stack.imgur.com/Mv83H.png");
+	color:#ff0000;
+}
+
+.info{
+	background-color: #ecf0f1;
+	padding: 30px;
+}
+
+.black-info{
+	background-color:#222222;
+	color:white;
+	padding: 20px;
+}
+
+
+.footer{
+	background-color: black;
+}
+
+.question ul li{
+	padding-bottom: 20px;
+	list-style-type: none;
+	padding-left:0;
+}
+
+.question ul{
+	padding-left:0;
+}
+
+#two ul{
+	list-style-image: url("https://www.starfighters.io/img/favicons/favicon-16x16.png");
+	color: black;
+}
+
+#zero, #one, #two, #three, #four, #five, #six, #seven{
+	color: #ff0000;
+}
+
+.challenge-title{
+	color:#ff0000;
+	font-weight: bold;
+}
+
+.participant{
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.participant-list ul li{
+	padding-bottom: 20px;
+	
+}
+
+.participant-list ul{
+	padding-left: 0.6cm;;
+	list-style-image: url("https://www.starfighters.io/img/favicons/favicon-16x16.png");
+}
+
+.chat{
+	text-align: right;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.info-challenge{
+	padding-bottom: 30px;
+}
+
+.aboutus-info{
+	text-align: center;
+	padding:80px;
+	padding-bottom: 90px;
+}
+
+.aboutus-info h2 , h1{
+	color:#ff0000;
+	font-weight: bold;
+}
+
+.twitter{
+	background-color: #ecf0f1;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jafar Salami">
+    <link rel="shortcut icon" type="image/png" href="https://www.starfighters.io/img/favicons/favicon-16x16.png"/>
+    <title>Starfighter</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><i class="fa fa-space-shuttle" aria-hidden="true"></i>  Starfighter</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="/approach">OUR APPROACH</a></li>     
+                <li><a href="/challenges">CHALLENGES</a></li>
+                <li><a href="/aboutus">ABOUT US</a></li>        
+                <li><a href="https://www.stockfighter.io/">PLAY NOW</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    <div class="jumbotron jumbotron-special" style="background-color:white; text-align:center;">
+      <div class="container">
+       <h1 style="color:#b30000;font-weight:bold;">Great developers are hard to find.<br>We know how to find them.</h1>
+       <p>Starfighter is a recruiting firm that <br>detects and introduces the best programmers on the market.</p>
+       <a href=""><button type="button" class="btn btn-primary">I'm hiring</button></a> &nbsp; &nbsp; &nbsp;<a href=""><button type="button" class="btn btn-success">Success</button></a>
+      </div>
+    </div>    
+    
+    <div class="info">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3 style="color:#b30000;">Hiring sucks.</h3>
+            <p style="font-size:16px;">Software developers are hard to hire. Specialists, like security people, are hard to hire. Specialist software developers work in the intersection of these two sets, and are especially hard to hire.</p>
+          </div>
+          <div class="col-md-3">
+            <h3 style="color:#b30000;">We are developers.</h3>
+            <p style="font-size:16px;">We have hired software developers at scale. We do our own evaluation of talent using programming challenges. They're playable at the candidate's own pace, on their own machine, and they're <em>actually fun</em>.</p>
+          </div>
+          <div class="col-md-3">
+            <h3 style="color:#b30000;">Talent comes to us.</h3>
+            <p style="font-size:16px;">Our online programming challenges are fun and stimulating enough so that tens of thousands of programmers participate.
+                    <a href="#" onclick="$('#the-fine-print').dialog({modal:
+            true, width: 450, title: 'How is this free to players?'});
+            return false;">
+            The challenges are free forever for players.</a>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h3 style="color:#b30000;">Work samples <em>work</em>.</h3>
+            <p style="font-size:16px;">Our challenges are predictive. People who excel at them are worth talking to. We maintain relationships with our participants and (opt-in) represent capable players to prospective employers.</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="black-info">
+      <div class="container">
+        <div class="col-md-4">
+          <h3>About Starfighter</h3>
+          <hr>
+                    <p style="font-size:16px;">Starfighter is not here to fix the job
+                    interview. We're here to <b>destroy</b> it, and
+                    replace it with something better. We're going to
+                    build a community of makers who have fun doing
+                    what they love, and show the tech industry how
+                    easy it is to hire talented people if you're
+                    committed to doing that.</p>
+                    <p style="font-size:16px;">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <br />
+                        <a href="terms.html">Terms and Conditions</a>
+                    </p>
+        </div>
+        <div class="col-md-4">
+          <h3 >Get Updates</h3>
+          <hr>
+                    <p style="font-size:16px;">We can send you about one email a week with news about Starfighter's upcoming CTFs and thoughts on what we're going through building them, all written by Patrick, Thomas, and Erin.</p>
+                    <form method="post" action="https://www.getdrip.com/forms/3662545/submissions" name="bottom-subscribe" data-drip-embedded-form="3662545" id="bottom-subscribe">
+                        <input type="email" name="fields[email]" class="form-control" id="email" placeholder="Enter E-mail" width="2px">
+                        <br>
+                        <button type="submit" name="submit" value="Get The Emails" class="btn btn-default">Submit</button>
+                    </form>
+        </div>
+        <div class="col--md-4">
+          <h3>Get in Touch</h3>
+          <hr>
+              <a href="https://twitter.com/cusu?lang=en-gb"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.facebook.com/CoventrySU/"><i class="fa fa-facebook-official fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UCW4PH3Cy_cfBgzb9MR0lgRQ"><i class="fa fa-youtube fa-2x"></i></a>
+        </div>
+        </div>
+    </div>
+ 
+          <footer class="footer">
+              <div class="container">
+            <div class="col-md-12" style="background-color: black;">
+              <h5 style="color:white">Created By Jafar Salami</h5>
+            </div>
+      </div>    
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
